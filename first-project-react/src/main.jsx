@@ -3,8 +3,10 @@ import App from './App.jsx' // importa o componente (arrow function) App do arqu
 
 createRoot(document.getElementById('root')).render(
   // renderiza todos os componentes informados aqui, dentro do html na div "root"
-
-    <App /> // componente React
+  <>
+    <App /> {/* componente React */}
+    {/* <App2 /> */}
+  </>
 )
 
 
