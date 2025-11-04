@@ -1,0 +1,78 @@
+/* Estilos da página Home — escopados para .home-page para evitar afetar outras páginas */
+.home-page {
+    background-image: url('../../assets/bg-image.png');
+    background-size: cover;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.home-page .logo {
+    display: flex;
+    margin: 0 auto;
+}
+
+.home-page .form-container,
+.home-page .submit-button {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.home-page .form-container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background: linear-gradient(
+        157.44deg,
+        rgba(255, 255, 255, 0.5) 0.84%,
+        rgba(255, 255, 255, 0.6) 0.85%,
+        rgba(255, 255, 255, 0.15) 100%
+    );
+    border-radius: 61px;
+    padding: 20px;
+    width: 334px;
+}
+
+.home-page form {
+    margin: auto;
+}
+
+.home-page input {
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-page .submit-button {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 14px;
+    margin: 10px 0px;
+    padding: 8px;
+    width: 150px;
+}
+
+.home-page .submit-button:hover {
+    opacity: 0.8;
+}
+
+.home-page .submit-button:active {
+    opacity: 0.5;
+}
+
+.home-page .seta {
+    scale: 0.8;
+    margin-left: 6px;
+}
+
+@keyframes error {
+    0% { transform: translate(0px); }
+    25% { transform: translate(10px); }
+    50% { transform: translate(0px); }
+    75% { transform: translate(-10px); }
+    100% { transform: translate(0px); }
+}

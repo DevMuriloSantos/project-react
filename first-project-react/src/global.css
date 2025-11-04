@@ -1,0 +1,13 @@
+/* Reset básico e estilos globais aplicados uma única vez */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Não colocamos background aqui — backgrounds devem ser aplicados por página */
+
+html, body, #root {
+  height: 100%;
+}
